@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    margin: 0%;
+}
+
+/*____________________HEADER__________________*/
+
+#headerPrincipal{
+    width: 220px; height: 100vh;
+    background-color: #000000;
+}
+#articleHeaderPrincipal{
+    width: 100%;
+}
+#navHeaderPrincipal{
+    width: 100%;
+}
+#ulNavHeader{
+    margin: 0%;
+    padding: 0%;
+}
+.liUlNavHeader{
+    list-style: none;
+    color: #ffffff;
+}
+#liUlNavHeaderLogo{
+    margin-bottom: 100px;
+}
+#liUlNavHeaderMais{
+    margin-top: 100px;
+}
+.ancoraLiUlNavHeader{
+    display: flex;
+    margin: 0% 20px;
+}
