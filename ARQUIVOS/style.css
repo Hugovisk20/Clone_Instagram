@@ -2,13 +2,16 @@
 
 body{
     margin: 0%;
+    background-color: #000000;
 }
 
 /*____________________HEADER__________________*/
 
 #headerPrincipal{
+    position: fixed;
     width: 220px; height: 100vh;
     background-color: #000000;
+    border-right: 1px solid #f7f7f257;
 }
 #articleHeaderPrincipal{
     width: 100%;
@@ -23,14 +26,52 @@ body{
 .liUlNavHeader{
     list-style: none;
     color: #ffffff;
+    margin-bottom: 23px;
 }
 #liUlNavHeaderLogo{
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 #liUlNavHeaderMais{
     margin-top: 100px;
 }
+#ancoraLogoUlNavHeader{
+    padding-top: 40px;
+}
 .ancoraLiUlNavHeader{
     display: flex;
-    margin: 0% 20px;
+    margin: 0px 20px;
+    color: #F7F7F2;
+    font-family: sans-serif;
+    font-size: 10pt;
+    font-weight: 500;
+    text-decoration: none;
+}
+.pAncoraLiUlnavHeader{
+    margin: 0%;
+    align-self: center;
+    margin-left: 10px;
+}
+
+/*____________________MAIN____________________*/
+
+#main{
+    background-color: #000000;
+    width: calc(100% - 220px); height: 100vh;
+    float: right;
+}
+#secContentMain{
+    width: 100%;
+}
+#artContentLeft{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#divArtColun{
+    display: flex;
+    width: 60%;
+    background-color: #ffffff;
+    height: 100%;
 }
