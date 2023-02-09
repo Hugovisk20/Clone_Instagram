@@ -4,6 +4,7 @@ body{
     margin: 0%;
     background-color: #000000;
     height: 300vh;
+    cursor: url(../IMAGENS/cursor.png), default;
 }
 
 /*____________________HEADER__________________*/
@@ -34,6 +35,12 @@ body{
 }
 #liUlNavHeaderMais{
     margin-top: 100px;
+}
+.ImgItemNavHeader{
+    transition: all .1s;
+}
+.liUlNavHeader:hover .ImgItemNavHeader{
+    transform: scale(1.1);
 }
 #ancoraLogoUlNavHeader{
     padding-top: 40px;
