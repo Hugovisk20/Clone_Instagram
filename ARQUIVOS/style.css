@@ -80,7 +80,6 @@ body{
     height: 100%;
     margin: auto;
     background-color: #7C898B;
-    min-height: 100vh;
 }
 .divArtContent{
     width: 100%;
@@ -174,4 +173,41 @@ body{
 .divButtons{
     width: 20%;
     background-color: #3030ff;
+}
+
+/*____________________MAIN PÁGINA MENSAGENS____________________*/
+
+.divContentMsg{
+    width: 100%;
+    height: 100vh;
+    background-color: #0000ff;
+    align-self: center;
+}
+.divTotal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #ffffffb0;
+}
+.divLeftMsg{
+    width: 40%;
+    height: 100%;
+    background-color: #0000ff4f;
+}
+.divHeadMsg{
+    width: 100%;
+    height: 10%;
+    background-color: #7c898b6b;
+    border-bottom: 1px solid #000000;
+    box-sizing: border-box;
+}
+.divBodyMsg{
+    width: 100%;
+    height: 90%;
+    background-color: #ff924f8c;
+}
+.divRightMsg{
+    width: 60%;
+    height: 100%;
+    background-color: #ba274956;
 }
