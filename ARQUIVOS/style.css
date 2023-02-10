@@ -4,7 +4,6 @@ body{
     margin: 0%;
     background-color: #000000;
     cursor: url(../IMAGENS/cursor.png), default;
-    height: 500vh;
 }
 
 /*____________________CABEÇALHO GERAL/SITE INTEIRO__________________*/
@@ -75,22 +74,22 @@ body{
 
 .secContentMain{
     width: 100%;
-    height: 100%;
 }
 .artContent{
-    width: 70%;
+    width: 75%;
     height: 100%;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
     background-color: #7C898B;
-    
+    min-height: 100vh;
+}
+.divArtContent{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    display: flex;
+    gap: 10px;
 }
 .divArtColunLeft{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     width: 60%;
     height: 100%;
     background-color: #ff924f;
@@ -107,9 +106,7 @@ body{
     background-color: #BA274A;
 }
 .divContenNavContent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 25px;
 }
 .divTitleNavContent{
     width: 100%;
@@ -138,9 +135,43 @@ body{
 
 /*____________________MAIN PÁGINA EXPLORAR____________________*/
 
-.mainEx{
-    background-color: #141414;
+.divContents{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
-.secContentMainEx{
-    height: 100%;
+.contentEx{
+    width: 30%;
+    height: 237px;
+    border: 1px solid #1616ff;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+
+/*____________________MAIN PÁGINA REELS____________________*/
+
+.artContentReels{
+    width: 40%;
+}
+.divArtContent{
+    padding-top: 20px;
+}
+.divArtColunLeftReels{
+    width: 100%;
+}
+
+.divContentsReels{
+    display: flex;
+    margin-bottom: 15px;
+}
+.divMidia{
+    width: 80%;
+    height: 600px;
+    background-color: #0000ff;
+}
+.divButtons{
+    width: 20%;
+    background-color: #3030ff;
 }
