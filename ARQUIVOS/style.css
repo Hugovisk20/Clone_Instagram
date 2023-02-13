@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+:root{
+    color: #ffffff;
+}
 body{
     margin: 0%;
     background-color: #000000;
@@ -102,7 +105,6 @@ body{
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-    color: #ffffff;
 }
 .divContainerStorie{
     padding: 0px 5px;
@@ -113,7 +115,7 @@ body{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: #0000ff;
+    background-color: #f7f7f22d;
 }
 .pNomeStorie{
     margin: 0%;
@@ -122,24 +124,60 @@ body{
     width: 100%;
     height: 100%;
 }
-.divContenNavContent{
+.divContentNavContent{
     margin-bottom: 25px;
 }
 .divTitleNavContent{
     width: 100%;
     height: 50px;
     display: flex;
-    background-color: #0000ff83;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f22d;
+}
+.divContentTitleLeft{
+    display: flex;
+    height: 100%;
+}
+.divContentTitleRight{
+    width: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 7px;
+}
+.divImgTitleNavContent{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divImgUserTitleNavContent{
+    width: 90%;
+    height: 90%;
+    background-color: #f7f7f22d;
+    border-radius: 50%;
+}
+.pTitleNavContent, .divTxtTitleNavContent, .divImgTitleNavContent{
+    align-self: center;
+}
+.divPointContentTitleRight{
+    width: 4px;
+    height: 4px;
+    background-color: #F7F7F2;
+    border-radius: 50%;
 }
 .divImgNavContent{
     width: 100%;
     height: 480px;
-    background-color: #0000ff52;
+    background-color: #f7f7f260;
 }
 .divComentNavContent{
     width: 100%;
     height: 160px;
-    background-color: #0000ff33;
+    background-color: #f7f7f22d;
 }
 .divImgsComentNavContent{
     height: 15%;
@@ -148,7 +186,6 @@ body{
 }
 .divPComent{
     height: 85%;
-    color: #ffffff;
 }
 .pMargin0{
     margin: 0%;
@@ -156,14 +193,14 @@ body{
 
 .divAside{
     width: 40%;
-    height: 500px;
+    height: 600px;
 }
 .asideMain{
     height: 100%;
 }
 .divContentUser{
-    background-color: #0000ff83;
-    height: 20%;
+    background-color: #f7f7f260;
+    height: 15%;
     padding: 0px 15px;
     display: flex;
     justify-content: space-between;
@@ -178,13 +215,20 @@ body{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: #ffffff5b;
+    background-color: #f7f7f22d;
 }
 .divMudarContentAside{
     align-self: center;
 }
+.divAsideSugVerTudo{
+    width: 100%;
+    display: flex;
+    background-color: #f7f7f22d;
+    justify-content: space-between;
+    padding: 7px 0px;
+}
 .divContentSug{
-    background-color: #0000ff52;
+    background-color: #f7f7f22d;
 }
 .divSugAside{
     width: 100%;
@@ -193,30 +237,34 @@ body{
 .divIndSugAside{
     width: 100%;
     height: 50px;
-    outline: 1px solid #ffffff;
-    margin: 1px 0px;
     display: flex;
 }
 .divImgSugAside{
     width: 15.15%;
     height: 100%;
-    background-color: #0000ff83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divImg{
+    width: 90%;
+    height: 90%;
+    background-color: #f7f7f22d;
+    border-radius: 50%;
 }
 .divNameSugAside{
     width: 65%;
     height: 100%;
-    background-color: #0000ff52;
 }
 .divSeguirSugAside{
     width: 19.85%;
     height: 100%;
-    background-color: #0000ff33;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .divContentFooter{
-    background-color: #0000ff33;
+    background-color: #f7f7f260;
     height: 10%;
 }
 
@@ -224,6 +272,9 @@ body{
 
 /*____________________MAIN PÁGINA EXPLORAR____________________*/
 
+.mainEx{
+    background-color: #1a1a1a;
+}
 .divContents{
     width: 100%;
     display: flex;
