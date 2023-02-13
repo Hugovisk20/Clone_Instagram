@@ -285,8 +285,8 @@ body{
 .contentEx{
     width: 30%;
     height: 237px;
-    border: 1px solid #1616ff;
     border-radius: 3px;
+    background-color: #f7f7f22d;
     margin: 10px 0px;
 }
 
