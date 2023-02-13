@@ -5,6 +5,9 @@ body{
     background-color: #000000;
     cursor: url(../IMAGENS/cursor.png), default;
 }
+.margin010{
+    margin: 0px 10px;
+}
 
 /*____________________CABEÇALHO GERAL/SITE INTEIRO__________________*/
 
@@ -79,7 +82,6 @@ body{
     width: 75%;
     height: 100%;
     margin: auto;
-    background-color: #7C898B;
 }
 .divArtContent{
     width: 100%;
@@ -91,44 +93,132 @@ body{
 .divArtColunLeft{
     width: 60%;
     height: 100%;
-    background-color: #ff924f;
 }
 .navStories{
     width: 100%;
+    height: 110px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color: #ffffff;
+}
+.divContainerStorie{
+    padding: 0px 5px;
+    width: 70px;
+    height: 100%;
+}
+.divImgStorie{
+    width: 70px;
     height: 70px;
-    margin-bottom: 40px;
-    background-color: #BA274A;
+    border-radius: 50%;
+    background-color: #0000ff;
+}
+.pNomeStorie{
+    margin: 0%;
 }
 .navContent{
     width: 100%;
     height: 100%;
-    background-color: #BA274A;
 }
 .divContenNavContent{
     margin-bottom: 25px;
 }
 .divTitleNavContent{
     width: 100%;
-    height: 55px;
-    background-color: #0000ff;
+    height: 50px;
+    display: flex;
+    background-color: #0000ff83;
 }
 .divImgNavContent{
     width: 100%;
     height: 480px;
-    background-color: #1616ff;
+    background-color: #0000ff52;
 }
 .divComentNavContent{
     width: 100%;
-    height: 250px;
-    background-color: #3030ff;
+    height: 160px;
+    background-color: #0000ff33;
+}
+.divImgsComentNavContent{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.divPComent{
+    height: 85%;
+    color: #ffffff;
+}
+.pMargin0{
+    margin: 0%;
 }
 
 .divAside{
     width: 40%;
     height: 500px;
-    background-color: #FF934F;
 }
-
+.asideMain{
+    height: 100%;
+}
+.divContentUser{
+    background-color: #0000ff83;
+    height: 20%;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.divImgTxtUser{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.divImgUser{
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ffffff5b;
+}
+.divMudarContentAside{
+    align-self: center;
+}
+.divContentSug{
+    background-color: #0000ff52;
+}
+.divSugAside{
+    width: 100%;
+    height: 100%;
+}
+.divIndSugAside{
+    width: 100%;
+    height: 50px;
+    outline: 1px solid #ffffff;
+    margin: 1px 0px;
+    display: flex;
+}
+.divImgSugAside{
+    width: 15.15%;
+    height: 100%;
+    background-color: #0000ff83;
+}
+.divNameSugAside{
+    width: 65%;
+    height: 100%;
+    background-color: #0000ff52;
+}
+.divSeguirSugAside{
+    width: 19.85%;
+    height: 100%;
+    background-color: #0000ff33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divContentFooter{
+    background-color: #0000ff33;
+    height: 10%;
+}
 
 
 
