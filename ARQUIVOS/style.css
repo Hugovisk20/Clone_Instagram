@@ -20,37 +20,35 @@ body{
     background-color: #000000;
     border-right: 1px solid #f7f7f22d;
 }
-.articleHeaderPrincipal{
+.articleNav{
     width: 100%;
 }
-.navHeaderPrincipal{
+.navMenu{
     width: 100%;
 }
-.ulNavHeader{
+.ulMenu{
     margin: 0%;
     padding: 0%;
 }
-.liUlNavHeader{
+.liUlMenu{
     list-style: none;
     color: #ffffff;
     margin-bottom: 23px;
 }
-.liUlNavHeaderLogo{
-    margin-bottom: 60px;
-}
-.liUlNavHeaderMais{
-    margin-top: 100px;
-}
-.ImgItemNavHeader{
-    transition: all .1s;
-}
-.liUlNavHeader:hover .ImgItemNavHeader{
-    transform: scale(1.1);
-}
-.ancoraLogoUlNavHeader{
+.liUlMenuLogo{
+    padding-bottom: 60px;
     padding-top: 40px;
 }
-.ancoraLiUlNavHeader{
+.liUlMenuMais{
+    margin-top: 100px;
+}
+.iconLiUlMenu{
+    transition: all .1s;
+}
+.liUlMenu:not(.liUlMenuLogo):hover .iconLiUlMenu{
+    transform: scale(1.1);
+}
+.ancoraLiUlMenu{
     display: flex;
     margin: 0px 20px;
     color: #F7F7F2;
@@ -59,7 +57,7 @@ body{
     font-weight: 500;
     text-decoration: none;
 }
-.pAncoraLiUlnavHeader{
+.pAncoraLiUlMenu{
     margin: 0%;
     align-self: center;
     margin-left: 10px;
