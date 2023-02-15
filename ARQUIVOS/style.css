@@ -393,12 +393,12 @@ body{
 
 /*____________________MAIN PÁGINA MENSAGENS____________________*/
 
-.divContentMsg{
+.ContainerMsg{
     width: 100%;
     height: 100vh;
     align-self: center;
 }
-.divTotal{
+.boxMsg{
     width: 100%;
     height: 100%;
     display: flex;
@@ -408,12 +408,12 @@ body{
     width: 40%;
     height: 100%;
 }
-.divHeadMsg{
+.contentHeadMsg{
     width: 100%;
     height: 10%;
     outline: 1px solid #ffffff;
 }
-.divBodyMsg{
+.contentBody{
     width: 100%;
     height: 90%;
     outline: 1px solid #ffffff;
