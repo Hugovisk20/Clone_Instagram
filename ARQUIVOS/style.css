@@ -300,14 +300,14 @@ body{
 .mainEx{
     background-color: #1a1a1a;
 }
-.divContents{
+.contentItem{
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-content: flex-start;
     flex-wrap: wrap;
 }
-.contentEx{
+.item{
     width: 30%;
     height: 237px;
     border-radius: 3px;
