@@ -6,13 +6,12 @@
 body{
     margin: 0%;
     background-color: #000000;
-    cursor: url(../IMAGENS/cursor.png), default;
 }
-.margin010{
-    margin: 0px 10px;
+.margin0{
+    margin: 0%;
 }
 
-/*____________________CABEÇALHO GERAL/SITE INTEIRO__________________*/
+/*____________________CABEÇALHO GERAL*/
 
 .headerPrincipal{
     position: fixed;
@@ -63,7 +62,7 @@ body{
     margin-left: 10px;
 }
 
-/*____________________MAIN GERAL/SITE INTEIRO____________________*/
+/*____________________MAIN GERAL*/
 
 .main{
     background-color: #000000;
@@ -74,7 +73,7 @@ body{
 
 
 
-/*/*____________________MAIN PÁGINA INDEX____________________*/
+/*____________________MAIN PÁGINA INDEX*/
 
 .secContentMain{
     width: 100%;
@@ -95,6 +94,9 @@ body{
     width: 60%;
     height: 100%;
 }
+
+/*_______________STORIES*/
+
 .navStories{
     width: 100%;
     height: 110px;
@@ -118,14 +120,19 @@ body{
 .pNomeStorie{
     margin: 0%;
 }
+
+/*_______________POST*/
+
 .navContent{
     width: 100%;
     height: 100%;
 }
-.divContentNavContent{
+.contentPost{
     margin-bottom: 25px;
 }
-.divTitleNavContent{
+/*__________TOPO DO POST*/
+
+.contentHeadPost{
     width: 100%;
     height: 50px;
     display: flex;
@@ -133,11 +140,11 @@ body{
     align-items: center;
     background-color: #f7f7f22d;
 }
-.divContentTitleLeft{
+.contentUserHeadPost{
     display: flex;
     height: 100%;
 }
-.divContentTitleRight{
+.containerPointsHeadPost{
     width: 20px;
     height: 100%;
     display: flex;
@@ -145,112 +152,129 @@ body{
     justify-content: space-between;
     margin: 0px 7px;
 }
-.divImgTitleNavContent{
+.contentImgUserHeadPost{
     width: 50px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.divImgUserTitleNavContent{
+.imgUserHeadPost{
     width: 90%;
     height: 90%;
     background-color: #f7f7f22d;
     border-radius: 50%;
 }
-.pTitleNavContent, .divTxtTitleNavContent, .divImgTitleNavContent{
+.txtHeadPost, .contentTxtUserHeadPost{
     align-self: center;
 }
-.divPointContentTitleRight{
+.pointsHeadPost{
     width: 4px;
     height: 4px;
     background-color: #F7F7F2;
     border-radius: 50%;
 }
-.divImgNavContent{
+
+/*__________IMG DO POST*/
+
+.BodyPost{
     width: 100%;
     height: 480px;
     background-color: #f7f7f260;
 }
-.divComentNavContent{
+
+/*__________COMENTÁRIOS DO POST*/
+
+.divComentPost{
     width: 100%;
     height: 160px;
     background-color: #f7f7f22d;
 }
-.divImgsComentNavContent{
+.divIconsComentPost{
     height: 15%;
     display: flex;
     justify-content: space-between;
 }
-.divPComent{
+.divTxtComentPost{
     height: 85%;
 }
-.pMargin0{
-    margin: 0%;
-}
+
+/*_______________ASIDE DA PÁGINA*/
 
 .divAside{
     width: 40%;
     height: 600px;
 }
-.asideMain{
+.asideContent{
     height: 100%;
 }
-.divContentUser{
+
+/*__________PARTE USER ASIDE*/
+
+.divContentUserAside{
     background-color: #f7f7f260;
     height: 15%;
     padding: 0px 15px;
     display: flex;
     justify-content: space-between;
 }
-.divImgTxtUser{
+.divImgTxtUserAside{
     display: flex;
     align-items: center;
     height: 100%;
 }
-.divImgUser{
+.divImgUserAside{
     overflow: hidden;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     background-color: #f7f7f22d;
 }
-.divMudarContentAside{
+.txtUserAside{
+    margin: 0px 10px;
+}
+.divMUserAside{
     align-self: center;
 }
-.divAsideSugVerTudo{
+
+/*__________PARTE VER TUDO ASIDE*/
+
+.divVTAside{
     width: 100%;
     display: flex;
     background-color: #f7f7f22d;
     justify-content: space-between;
     padding: 7px 0px;
 }
-.divContentSug{
+
+/*__________PARTE SUGESTÕES ASIDE*/
+
+.divSugAside{
     background-color: #f7f7f22d;
 }
-.divSugAside{
+.divContentSugAside{
     width: 100%;
     height: 100%;
 }
-.divIndSugAside{
+.sugAside{
     width: 100%;
     height: 50px;
     display: flex;
 }
-.divImgSugAside{
+.divImgUserSugAside{
     width: 15.15%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.divImg{
+.divImgUser{
     width: 90%;
     height: 90%;
     background-color: #f7f7f22d;
     border-radius: 50%;
 }
-.divNameSugAside{
+.divNameUserSugAside{
     width: 65%;
     height: 100%;
 }
@@ -261,7 +285,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-.divContentFooter{
+
+/*__________PARTE FOOTER DO ASIDE*/
+
+.divFooter{
     background-color: #f7f7f260;
     height: 10%;
 }
