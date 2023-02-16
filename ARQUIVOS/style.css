@@ -317,32 +317,31 @@ body{
 
 /*____________________MAIN PÁGINA REELS____________________*/
 
-.artContentReels{
+.artContainerReels{
     width: 40%;
 }
-.divArtContent{
+.containerNavReels{
     padding-top: 20px;
 }
-.divArtColunLeftReels{
-    width: 100%;
-}
+
+
 
 .divContentsReels{
     display: flex;
     margin-bottom: 15px;
 }
-.divMidia{
+.midiaContentReels{
     width: 80%;
     height: 600px;
     background-color: #f7f7f22d;
 }
-.videoReel{
+.midiaReels{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
-.divMuteReels{
+.buttonMuteReels{
     width: 30px;
     height: 30px;
     background-color: #f7f7f22d;
@@ -350,16 +349,16 @@ body{
     margin: 15px 15px;
     align-self: flex-end;
 }
-.divDescReel{
+.descricaoReels{
     width: 100%;
     height: 100px;
     background-color: #f7f7f22d;
 }
-.divButtons{
+.buttonsContentReels{
     width: 20%;
     background-color: #f7f7f260;
 }
-.figureImgsButtonReels{
+.figureIconsButtons{
     margin: 0%;
     display: flex;
     flex-direction: column;
@@ -368,7 +367,7 @@ body{
     width: 100%;
     height: 100%;
 }
-.divItemButtonReels{
+.contentIconButtonReels{
     margin-bottom: 30px;
     width: 100%;
     display: flex;
