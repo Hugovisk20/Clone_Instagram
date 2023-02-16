@@ -21,9 +21,16 @@ body{
 }
 .articleNav{
     width: 100%;
+    height: 100%;
 }
 .navMenu{
+    position: relative;
     width: 100%;
+    height: 100%;
+    z-index: 10;
+    overflow: hidden;
+    background-color: #000000;
+    transition: all .3s;
 }
 .ulMenu{
     margin: 0%;
@@ -56,11 +63,49 @@ body{
     font-weight: 500;
     text-decoration: none;
 }
+.contentAnchorPesquisa{
+    display: flex;
+    margin: 0px 20px;
+    color: #F7F7F2;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 10pt;
+    font-weight: 500;
+}
 .pAncoraLiUlMenu{
     margin: 0%;
     align-self: center;
     margin-left: 10px;
 }
+.navPesquisa{
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 100%;
+    background-color: #f7f7f22d;
+    transition: all .3s;
+    margin-left: 50px;
+    overflow: hidden;
+}
+.headNavPesquisa{
+    width: 100%;
+    height: 30%;
+    background-color: #f7f7f22d;
+    padding: 0px 10px;
+}
+.h3HeadNavPesquisa{
+    padding-top: 50px
+}
+.bodyNavPesquisa{
+    width: 100%;
+    height: 70%;
+    background-color: #f7f7f260;
+    padding: 0px 10px;
+}
+.transformTeste{
+    transform: translateX(-10px);
+}
+
 
 /*____________________MAIN GERAL*/
 

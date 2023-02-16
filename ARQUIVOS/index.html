@@ -18,7 +18,7 @@
 
         <article class="articleNav">
 
-            <nav class="navMenu">
+            <nav class="navMenu" id="navMenu">
 
                 <ul class="ulMenu">
 
@@ -35,11 +35,11 @@
                         </a>
                     </li>
 
-                    <li class="liUlMenu">
-                        <a href="" class="ancoraLiUlMenu">
+                    <li class="liUlMenu" onclick="abrePesquisa()">
+                        <div class="contentAnchorPesquisa">
                             <img src="../IMAGENS/lupa.png" alt="" class="iconAncoraLiUlMenu">
                             <p class="pAncoraLiUlMenu">Pesquisa</p>
-                        </a>
+                        </div>
                     </li>
 
                     <li class="liUlMenu">
@@ -92,6 +92,28 @@
                     </li>
 
                 </ul>
+
+            </nav>
+
+            <nav class="navPesquisa" id="navPesquisa">
+
+                <div class="headNavPesquisa">
+
+                    <div class="containerHeadNavPesquisa">
+
+                        <h2 class="h3HeadNavPesquisa margin0">Pesquisa</h2>
+
+                        <input type="text" name="" id="" class="inputHeadNavPesquisa">
+
+                    </div>
+
+                </div>
+
+                <div class="bodyNavPesquisa">
+
+
+
+                </div>
 
             </nav>
 
@@ -340,9 +362,9 @@
 
         </section>
 
-
-
     </main>
     
+    <script src="script_all.js"></script>
+
 </body>
 </html>
