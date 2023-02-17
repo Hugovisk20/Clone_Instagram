@@ -11,13 +11,13 @@
 </head>
 <body>
 
-    <!--____________________HEADER-->
+    <!--____________________HEADER____________________-->
 
     <header class="headerPrincipal">
 
         <article class="articleNav">
 
-            <nav class="navMenu">
+            <nav class="navMenu" id="navMenu">
 
                 <ul class="ulMenu">
 
@@ -29,16 +29,16 @@
 
                     <li class="liUlMenu">
                         <a href="index.html" class="ancoraLiUlMenu">
-                            <img src="../IMAGENS/homeWhite.png" alt="" class="iconAncoraLiUlMenu">
+                            <img src="../IMAGENS/home.png" alt="" class="iconAncoraLiUlMenu">
                             <p class="pAncoraLiUlMenu">Página Principal</p>
                         </a>
                     </li>
 
-                    <li class="liUlMenu">
-                        <a href="" class="ancoraLiUlMenu">
+                    <li class="liUlMenu" onclick="abrePesquisa()">
+                        <div class="contentAnchorPesquisa">
                             <img src="../IMAGENS/lupa.png" alt="" class="iconAncoraLiUlMenu">
                             <p class="pAncoraLiUlMenu">Pesquisa</p>
-                        </a>
+                        </div>
                     </li>
 
                     <li class="liUlMenu">
@@ -62,11 +62,11 @@
                         </a>
                     </li>
 
-                    <li class="liUlMenu">
-                        <a href="" class="ancoraLiUlMenu">
+                    <li class="liUlMenu" onclick="abreNotificacao()">
+                        <div href="" class="ancoraLiUlMenu">
                             <img src="../IMAGENS/coracao.png" alt="" class="iconAncoraLiUlMenu">
                             <p class="pAncoraLiUlMenu">Notificações</p>
-                        </a>
+                        </div>
                     </li>
 
                     <li class="liUlMenu">
@@ -91,6 +91,66 @@
                     </li>
 
                 </ul>
+
+            </nav>
+
+            <!--BARRA DE PESQUISA-->
+
+            <nav class="navPesquisa" id="navPesquisa">
+
+                <div class="headNavPesquisa">
+
+                    <div class="containerHeadNavPesquisa">
+
+                        <h2 class="h3HeadNavPesquisa margin0">Pesquisa</h2>
+
+                        <input type="text" name="" id="" class="inputHeadNavPesquisa">
+
+                    </div>
+
+                </div>
+
+                <div class="bodyNavPesquisa">
+
+
+
+                </div>
+
+            </nav>
+
+            <!--BARRA DE NOTIFICAÇÕES-->
+
+            <nav class="navNotificacao" id="navNotificacao">
+
+                <div class="headNavNotificacao">
+
+                    <div class="containerHeadNavNotificacao">
+
+                        <h2 class="h3HeadNavNotificacao margin0">Notificacao</h2>
+
+                    </div>
+
+                </div>
+
+                <div class="bodyNavNotificacao">
+
+                    <div class="contentNotificacaoBody">
+
+                        <div class="containerImgUserBody">
+                            <div class="imgUserBody"></div>
+                        </div>
+
+                        <div class="containerTxtUserBody">
+                            <p class="pTxtUserBody margin0">Hugo otavio começo a seguir voce</p>
+                        </div>
+
+                        <div class="containerButtonBody">
+                            <button class="buttonUserBody"></button>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </nav>
 
@@ -187,6 +247,8 @@
         </section>
 
     </main>
+
+    <script src="script_all.js"></script>
     
 </body>
 </html>
