@@ -12,16 +12,6 @@ function abrePesquisa(){
     }
 }
 
-let navMenu = document.getElementById('navMenu');
-function retornaNav(){
-    navMenu.classList.remove('transformTeste');
-    navMenu.style.width = '220px';
-}
-function retraiNav(){
-    navMenu.classList.add('transformTeste');
-    navMenu.style.width = '50px';
-}
-
 //SCRIPT MOSTRA/ESCONDE NOTIFICAÇÕES
 let navNotificacao = document.getElementById('navNotificacao');
 function abreNotificacao(){
@@ -34,4 +24,15 @@ function abreNotificacao(){
         navNotificacao.style.transform = 'translateX(50px)';
         retraiNav();
     }
+}
+
+//FUNÇÕES NAV
+let navMenu = document.getElementById('navMenu');
+function retornaNav(){
+    navMenu.classList.remove('transformTeste');
+    navMenu.style.width = '220px';
+}
+function retraiNav(){
+    navMenu.classList.add('transformTeste');
+    navMenu.style.width = '50px';
 }
