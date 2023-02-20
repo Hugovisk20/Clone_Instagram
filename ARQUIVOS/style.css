@@ -215,7 +215,7 @@ body{
     gap: 10px;
 }
 .divArtColunLeft{
-    width: 60%;
+    width: 498px;
     height: 100%;
 }
 
@@ -448,6 +448,7 @@ body{
         width: 100%;
         height: 50px;
         bottom: 0px;
+        border-top: 1px solid #f7f7f22d;
     }
     .navMenu{
         display: flex;
@@ -455,7 +456,9 @@ body{
     }
     .ulMenu{
         display: flex;
+        justify-content: space-around;
         align-items: center;
+        width: 100%;
     }
     .liUlMenu{
         margin: 0%;
