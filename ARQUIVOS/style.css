@@ -431,15 +431,18 @@ body{
         display: none;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .artContent{
         width: 90%;
+    }
+    .liUlMenuLogo{
+        display: none;
     }
     .divAside{
         display: none;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .main{
         width: 100%;
         margin: 0%;
