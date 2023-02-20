@@ -199,15 +199,17 @@ body{
 
 .secContentMain{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .artContent{
-    width: 75%;
+    width: 830px;
     height: 100%;
-    margin: auto;
 }
 .divArtContent{
     width: 100%;
     height: 100%;
+    justify-content: center;
     padding-top: 50px;
     display: flex;
     gap: 10px;
@@ -414,13 +416,76 @@ body{
     background-color: #f7f7f260;
     height: 10%;
 }
-
+@media screen and (max-width: 1160px) {
+    .main{
+        width: calc(100% - 50px); height: 100%;
+        margin-left: 50px;
+    }
+    .headerPrincipal{
+        width: 50px;
+    }
+    .ulMenu{
+        transform: translateX(-8px);
+    }
+    .pAncoraLiUlMenu{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .artContent{
+        width: 90%;
+    }
+    .divAside{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .main{
+        width: 100%;
+        margin: 0%;
+    }
+    .headerPrincipal{
+        width: 100%;
+        height: 50px;
+        bottom: 0px;
+    }
+    .navMenu{
+        display: flex;
+        justify-content: center;
+    }
+    .ulMenu{
+        display: flex;
+        align-items: center;
+    }
+    .liUlMenu{
+        margin: 0%;
+    }
+    .liUlMenuLogo{
+        display: none;
+    }
+    .liUlMenuPesquisa{
+        display: none;
+    }
+    .liUlMenuNotificacao{
+        display: none;
+    }
+    .liUlMenuMais{
+        display: none;
+    }
+    .divArtColunLeft{
+        width: 100%;
+    }
+}
 
 
 /*____________________MAIN PÁGINA EXPLORAR____________________*/
 
 .mainEx{
     background-color: #1a1a1a;
+}
+.SecContentItem{
+    display: flex;
+    justify-content: center;
 }
 .contentItem{
     width: 100%;
@@ -439,8 +504,18 @@ body{
 
 /*____________________MAIN PÁGINA REELS____________________*/
 
+.secContainerReels{
+    display: flex;
+    justify-content: center;
+}
 .artContainerReels{
     width: 40%;
+    height: 100%;
+}
+@media screen and (max-width: 600px) {
+    .artContainerReels{
+        width: 90%;
+    }
 }
 .containerNavReels{
     padding-top: 20px;
@@ -514,6 +589,10 @@ body{
 
 /*____________________MAIN PÁGINA MENSAGENS____________________*/
 
+.secContentMsg{
+    display: flex;
+    justify-content: center;
+}
 .ContainerMsg{
     width: 100%;
     height: 100vh;

@@ -29,10 +29,15 @@ function abreNotificacao(){
 //FUNÇÕES NAV
 let navMenu = document.getElementById('navMenu');
 function retornaNav(){
-    navMenu.classList.remove('transformTeste');
-    navMenu.style.width = '220px';
+    if(window.screen.width > 1160){
+        navMenu.classList.remove('transformTeste');
+        navMenu.style.width = '220px';        
+    }
 }
 function retraiNav(){
-    navMenu.classList.add('transformTeste');
-    navMenu.style.width = '50px';
+    if(window.screen.width > 1160){
+        navMenu.classList.add('transformTeste');
+        navMenu.style.width = '50px';        
+    }
+
 }
