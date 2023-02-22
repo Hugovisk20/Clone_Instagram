@@ -495,11 +495,12 @@ body{
     .pAncoraLiUlMenu{
         display: none;
     }
+    .artContent{
+        width: 100%;
+    }    
 }
 @media screen and (max-width: 1000px) {
-    .artContent{
-        width: 70%;
-    }
+
     .liUlMenuLogo{
         display: none;
     }
@@ -697,4 +698,90 @@ body{
     width: 60%;
     height: 100%;
     outline: 1px solid #ffffff;
+}
+
+/*____________________MAIN PÁGINA PERFIL____________________*/
+
+.mainPerfil {
+    
+}
+
+.main__sec {
+    display: flex;
+    justify-content: center;
+}
+
+.main__sec__art {
+    width: 75%;
+    height: 100%;
+}
+
+.divDad__head {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.imgUser__img {
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f22d;
+    border-radius: 50%;
+}
+
+.divDad__head__imgUser {
+    width: 200px;
+    height: 200px;
+    padding: 0px 35px;
+}
+
+.divDad__head__txt {
+    margin: 0px 20px;
+    padding: 0px 20px;
+}
+
+.txt__row {
+    display: flex;
+    align-items: center;
+}
+
+.txt__h3 {
+    margin: 0%;
+}
+
+.txt__p {
+    padding-right: 20px;
+}
+
+.divDad__nav__content {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #f7f7f22d;
+}
+
+.content__p {
+    padding: 10px 3px;
+    margin: 0px 20px;
+    margin-top: -1px;
+}
+
+.content__pPubli {
+    border-top: 1px solid #ffffff;
+}
+
+.divDad__body {
+    display: flex;
+    justify-content: center;
+}
+.divDad__body__containerBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.divDad__body__box {
+    width: 19vw;
+    max-width: 255px;
+    height: 19vw;
+    max-height: 255px;
+    background-color: #f7f7f22d;
+    margin: 10px;
 }
