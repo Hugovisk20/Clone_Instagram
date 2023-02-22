@@ -41,3 +41,21 @@ function retraiNav(){
     }
 
 }
+
+//SCRIPT ABRIR ABA 'CRIAR'
+let navCriar = document.querySelector('.navCriar');
+function moveCriar(){
+    if(!navCriar.classList.contains("displayFlex")){
+        navCriar.classList.remove('displayNone');
+        navCriar.classList.add('displayFlex');        
+    }
+}
+function fechaCriar(){
+    let e = event.target.id;
+    console.log(e);
+    if(e == 'navCriar'){
+        navCriar.classList.remove('displayFlex');
+        navCriar.classList.add('displayNone');
+    }
+    return e;
+}

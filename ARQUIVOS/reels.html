@@ -30,7 +30,7 @@
 
                     <li class="liUlMenu">
                         <a href="index.html" class="ancoraLiUlMenu">
-                            <img src="../IMAGENS/homeWhite.png" alt="" class="iconAncoraLiUlMenu">
+                            <img src="../IMAGENS/home.png" alt="" class="iconAncoraLiUlMenu">
                             <p class="pAncoraLiUlMenu">Página Principal</p>
                         </a>
                     </li>
@@ -71,10 +71,10 @@
                     </li>
 
                     <li class="liUlMenu">
-                        <a href="" class="ancoraLiUlMenu">
+                        <div href="" class="ancoraLiUlMenu" onclick="moveCriar()">
                             <img src="../IMAGENS/sinal-de-mais.png" alt="" class="iconAncoraLiUlMenu">
                             <p class="pAncoraLiUlMenu">Criar</p>
-                        </a>
+                        </div>
                     </li>
 
                     <li class="liUlMenu">
@@ -148,6 +148,28 @@
                         <div class="containerButtonBody">
                             <button class="buttonUserBody"></button>
                         </div>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+            <nav class="navCriar" id="navCriar" onclick="fechaCriar()">
+
+                <div class="containerCriar">
+
+                    <div class="headCriar">
+                        <p class="margin0">Criar uma nova publicação</p>
+                    </div>
+
+                    <div class="bodyCriar">
+
+                        <img src="../IMAGENS/iconeFotoVideo.png" alt="">
+
+                        <label for="arquivo" class="labelBodyCriar">Selecione do computador</label>
+
+                        <input type="file" name="" id="arquivo">
 
                     </div>
 

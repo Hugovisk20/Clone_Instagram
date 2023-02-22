@@ -195,6 +195,59 @@ body{
     transform: translateX(-10px);
 }
 
+.navCriar{
+    position: absolute;
+    top: 0%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+    background-color: #f7f7f22d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.containerCriar{
+    width: 30%;
+    height: 75%;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.headCriar{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #f7f7f22d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyCriar{
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.labelBodyCriar{
+    background-color: #008cff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 7px 10px;
+    width: 200px;
+    cursor: pointer;
+}
+#arquivo{
+    display: none;
+}
+.displayFlex{
+    display: flex;
+}
+.displayNone{
+    display: none;
+}
+
 
 /*____________________MAIN GERAL*/
 
