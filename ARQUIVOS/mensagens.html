@@ -70,8 +70,8 @@
                         </div>
                     </li>
 
-                    <li class="liUlMenu">
-                        <div href="" class="ancoraLiUlMenu" onclick="moveCriar()">
+                    <li class="liUlMenu" onclick="moveCriar()">
+                        <div href="" class="ancoraLiUlMenu">
                             <img src="../IMAGENS/sinal-de-mais.png" alt="" class="iconAncoraLiUlMenu">
                             <p class="pAncoraLiUlMenu">Criar</p>
                         </div>
@@ -79,7 +79,7 @@
 
                     <li class="liUlMenu">
                         <a href="perfil.html" class="ancoraLiUlMenu">
-
+                            <div class="imgUserHeader"></div>
                             <p class="pAncoraLiUlMenu">Perfil</p>
                         </a>
                     </li>
@@ -155,35 +155,45 @@
 
             </nav>
 
-            <nav class="navCriar" id="navCriar" onclick="fechaCriar()">
-
-                <div class="containerCriar">
-
-                    <div class="headCriar">
-                        <p class="margin0">Criar uma nova publicação</p>
-                    </div>
-
-                    <div class="bodyCriar">
-
-                        <img src="../IMAGENS/iconeFotoVideo.png" alt="">
-
-                        <label for="arquivo" class="labelBodyCriar">Selecione do computador</label>
-
-                        <input type="file" name="" id="arquivo">
-
-                    </div>
-
-                </div>
-
-            </nav>
-
         </article>
+
+    </header>
+
+    <header class="headerMobile">
+
+        <nav>
+
+
+            
+        </nav>
 
     </header>
 
     <!--____________________MAIN-->
 
     <main class="main">
+
+        <nav class="navCriar" id="navCriar" onclick="fechaCriar()">
+
+            <div class="containerCriar">
+
+                <div class="headCriar">
+                    <p class="margin0">Criar uma nova publicação</p>
+                </div>
+
+                <div class="bodyCriar">
+
+                    <img src="../IMAGENS/iconeFotoVideo.png" alt="">
+
+                    <label for="arquivo" class="labelBodyCriar">Selecione do computador</label>
+
+                    <input type="file" name="" id="arquivo">
+
+                </div>
+
+            </div>
+
+        </nav>
 
         <section class="secContentMsg">
 

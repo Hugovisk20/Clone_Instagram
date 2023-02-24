@@ -503,7 +503,7 @@ body{
         display: none;
     }
     .artContent{
-        width: 100%;
+        width: 80%;
     }    
 }
 @media screen and (max-width: 1000px) {
@@ -803,7 +803,7 @@ body{
 }
 @media screen and (max-width: 900px) {
     .main__sec__art{
-        width: 100%;
+        width: 80%;
     }
 
     .divDad__body__box{
